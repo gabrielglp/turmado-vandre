@@ -1,0 +1,20 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build outputs
+/dist/
+/build/
+/.next/
+
+# Ignore compiled output
+*.log
+*.lock
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore package manager files
+yarn.lock
+pnpm-lock.yaml
